@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gambar-container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.gambar-container img {
+  width: 33.3333vw; /* 100vw dibagi 3 */
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 10px;
+}
